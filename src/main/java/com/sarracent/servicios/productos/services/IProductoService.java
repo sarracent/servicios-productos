@@ -1,8 +1,8 @@
-package com.sarracent.servicios.productos.models.services;
+package com.sarracent.servicios.productos.services;
 
 import java.util.List;
 
-import com.sarracent.servicios.productos.models.entity.Producto;
+import com.sarracent.servicios.productos.models.Producto;
 
 public interface IProductoService {
 	

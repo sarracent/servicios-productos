@@ -1,7 +1,7 @@
 package com.sarracent.servicios.productos.controllers;
 
-import com.sarracent.servicios.productos.models.entity.Producto;
-import com.sarracent.servicios.productos.models.services.IProductoService;
+import com.sarracent.servicios.productos.models.Producto;
+import com.sarracent.servicios.productos.services.IProductoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.sarracent.servicios.productos.models.entity;
+package com.sarracent.servicios.productos.models;
 
 import java.io.Serializable;
 import java.util.Date;

@@ -1,12 +1,12 @@
-package com.sarracent.servicios.productos.models.services;
+package com.sarracent.servicios.productos.services;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.sarracent.servicios.productos.models.entity.Producto;
-import com.sarracent.servicios.productos.models.repositories.ProductoRepository;
+import com.sarracent.servicios.productos.models.Producto;
+import com.sarracent.servicios.productos.repositories.ProductoRepository;
 
 @Service
 public class ProductoServiceImpl implements IProductoService {

@@ -1,8 +1,8 @@
-package com.sarracent.servicios.productos.models.repositories;
+package com.sarracent.servicios.productos.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.sarracent.servicios.productos.models.entity.Producto;
+import com.sarracent.servicios.productos.models.Producto;
 
 public interface ProductoRepository extends CrudRepository<Producto, Long> {
 
